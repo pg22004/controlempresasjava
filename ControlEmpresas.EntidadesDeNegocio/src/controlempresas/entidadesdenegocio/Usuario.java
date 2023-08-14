@@ -121,5 +121,8 @@ public class Usuario {
         this.rol = rol;
     }
     
-    
+    public class EstatusUsuario {
+        public static final byte ACTIVO = 1;
+        public static final byte INACTIVO = 2;
+    }
 }
